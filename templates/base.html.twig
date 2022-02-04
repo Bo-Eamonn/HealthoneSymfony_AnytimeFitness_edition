@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}Welcome!{% endblock %}</title>
+    <title>{% block title %}{% endblock %}</title>
 
 
 </head>
 
-<body>
-    <div class='container'>
+<body class="bg-light">
+    <div class='container bg-white'>
         
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -48,7 +48,7 @@
             </div>
         </nav>
 <figure class="banner">
-    <img class="banner-img img-fluid" src='/img/healthone-wide.png' />
+    <img class="banner-img img-fluid" src='https://picsum.photos/1980/300?blur' />
 </figure>
 <div class="card">
     <div class="card-header">
@@ -58,7 +58,7 @@
         </div>
     </div>
 </div>
-        {% block main %}{% endblock %}
+        {% block body %}{% endblock %}
 
         <footer>
             <div class="container-fluid row">

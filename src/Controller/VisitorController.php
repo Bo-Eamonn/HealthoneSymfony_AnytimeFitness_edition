@@ -8,8 +8,9 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class VisitorController extends AbstractController
 {
+    //Route to home page
     /**
-     * @Route("/", name="visitor")
+     * @Route("/", name="homepage")
      */
     public function index(): Response
     {
